@@ -3,53 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Football Boot Guide</title>
+    <title>Football Guide</title>
     <link rel="stylesheet" href="stylee.css">
 </head>
 <body>
-    
 
-        <div class="header">
-          <img src="Logooooo.png" alt="logo">
-          <h1>Aden's amazing cool football boot guide</h1>
+    <header class="page-header">
+        <div class="top-bar">
+            <div class="logo-placeholder"> <img src="Logooooo.png" alt="Logo"></div>
+            <div class="name-placeholder"> <h1>Football Boot Guide</h1></div>
         </div>
-        
-        <div class="navbar">
+        <nav class="navbar">
+            <a href="Home.html">Home</a>
+            <a href="Academy.html">Academy</a>
+            <a href="pro.html">Pro</a>
+            <a href="Elite.html">Elite</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
 
-          <a class="button" href="Home.html">Home</a>
-          <a href="Academy.html">Academy</a>
-          <a href="Pro.html">Pro</a>
-          <a href="Elite.html">Elite</a>
-          <a href="contact.html">Contact Us</a>
-        </div>
-        
-          <div class="main">
-            <form action="/action_page.php">
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="New Zealand">New Zealand</option>
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-                <option value="korea">Korea</option>
-              </select>
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-              <input type="button" value="Submit">
-            </form>
-           
+    <main >
+      <div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-        </div>
-         
-        <div class="footer">
-          <h2>Made By Aden</h2>
-        </div>
-        
-        
-        </html>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="new zealand">New Zealand</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+    </main>
+
+    <footer class="footer">
+        <h2>Footer</h2>
+    </footer>
+
 </body>
 </html>
