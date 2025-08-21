@@ -258,18 +258,21 @@ body {
     background: #d3d3d3;
 }
 
-.hero-images{
-      max-width: 300px;
-    height: auto;
-    object-fit: cover;
-        display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding-left: 580px;
+.hero-section {
+    text-align: center;
+    padding: 20px;
 }
 
-.hero-section{
-  text-align: center;
+.hero-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-images img {
+    max-width: 300px; /* Applies to each individual image */
+    height: auto;
+    object-fit: cover;
 }
 
 body {font-family: Arial, Helvetica, sans-serif;}
