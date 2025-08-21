@@ -1,112 +1,147 @@
+/* General & Global Styles */
 * {
     box-sizing: border-box;
-  }
-  
-  /* Style the body */
-  body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
     margin: 0;
-  }
-  
-  /* Header/logo Title */
-  .header {
-    padding: 80px;
-    text-align: center;
-    background: black;
+    background-color: #f0f0f0;
+}
+
+/* Header & Navigation Styles */
+.page-header {
+    background-color: black;
     color: white;
-  }
-  
-  /* Increase the font size of the heading */
-  .header h1 {
-    font-size: 40px;
-  }
-  
-  /* Style the top navigation bar */
-  .navbar {
-    overflow: hidden;
-    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    position: sticky;
-    top: 0;
-  }
-  
-  /* Style the navigation bar links */
-  .navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    position: sticky;
-    top: 0;
-  }
-  
+    flex-direction: column;
+    margin-bottom: 20px;
+}
 
-  
-  /* Change color on hover */
-  .navbar a:hover {
-    background-color: #ddd;
+.logo-placeholder {
     color: black;
-  }
-  
+    padding: 10px 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
 
-  /* Main column */
-  .main {   
-    -ms-flex: 70%; /* IE10 */
-    flex: 70%;
-    background-color: white;
+.name-placeholder {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.navbar a {
+    background-color: gold;
+    color: black;
+    text-align: center;
+    padding: 14px 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #e6b800;
+    color: black;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    text-align: center;
     padding: 20px;
-  }
-  
+}
 
-  /* Footer */
-  .footer {
+.hero-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-images img {
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Main Content Grid Styles */
+.home-page-content {
+    padding: 20px;
+    background-color: #f0f0f0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.news-and-predator-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+    grid-column: span 3;
+}
+
+.news-box {
+    background-color: #d3d3d3;
     padding: 20px;
     text-align: center;
-    background: #ddd;
-  }
+    grid-column: 1 / 3;
+    margin-bottom: 20px;
+}
 
-  button{
-    padding-left: 250px;
-  }
+.image-box {
+    background-color: #d3d3d3;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  .intro{
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-box {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer Styles */
+.footer {
+    padding: 20px;
     text-align: center;
-  }
-
-.BootImage{
-  padding: 100px;
-  width: 500px;
-  height: 500px;
-  align-items: center;
-
- 
-}
-
-.PageContainer{
-  height: auto;
-  width: 1400px;
-}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: black;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: white;
-  color: black;
+    background: #d3d3d3;
 }
