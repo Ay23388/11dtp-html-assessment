@@ -89,14 +89,14 @@ body {
 }
 
 .news-box {
-    background-color: #d3d3d3;
+    background-color: white;
     padding: 20px;
     text-align: center;
     grid-column: 1 / 3;
 }
 
 .image-box {
-    background-color: #d3d3d3;
+    background-color: white;
     height: 150px;
     display: flex;
     justify-content: center;
