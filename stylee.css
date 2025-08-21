@@ -81,26 +81,19 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.news-and-predator-grid {
+.news-and-other-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
     gap: 20px;
-    margin-top: 20px;
     grid-column: span 3;
-}
-
-.news-item {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin-bottom: 20px;
 }
 
 .news-box {
     background-color: #d3d3d3;
     padding: 20px;
     text-align: center;
-    grid-column: 1 / 3; /* This makes the news box span both columns */
+    grid-column: 1 / 3;
 }
 
 .image-box {
@@ -112,9 +105,9 @@ body {
 }
 
 .image-box img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+    max-width: 100%;  /* Ensures the image is never wider than its container */
+    max-height: 100%; /* Ensures the image is never taller than its container */
+    object-fit: contain; 
 }
 
 .text-box {
@@ -122,6 +115,7 @@ body {
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
 
 /* Pro Page Content Styles */
 .pro-page-content {
