@@ -1,4 +1,4 @@
-/* General & Global Styles */
+
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,7 +9,7 @@ body {
     background-color: #f0f0f0;
 }
 
-/* Header & Navigation Styles */
+
 .page-header {
     background-color: black;
     color: white;
@@ -60,7 +60,6 @@ body {
     color: black;
 }
 
-/* Home Page Content Styles */
 .home-page-content {
     padding: 20px;
     background-color: #f0f0f0;
@@ -105,8 +104,8 @@ body {
 }
 
 .image-box img {
-    max-width: 100%;  /* Ensures the image is never wider than its container */
-    max-height: 100%; /* Ensures the image is never taller than its container */
+    max-width: 100%;  
+    max-height: 100%; 
     object-fit: contain; 
 }
 
@@ -117,7 +116,6 @@ body {
 }
 
 
-/* Pro Page Content Styles */
 .pro-page-content {
     background-color: #f0f0f0;
     padding: 20px;
@@ -169,7 +167,7 @@ body {
     font-weight: bold;
 }
 
-/* Elite Page Content Styles */
+
 .elite-page-content {
     background-color: #333;
     color: white;
@@ -203,7 +201,7 @@ body {
     line-height: 1.6;
 }
 
-/* Contact Page Content Styles */
+
 .contact-page-content {
     background-color: #f0f0f0;
     padding: 20px;
@@ -253,11 +251,12 @@ body {
     resize: none;
 }
 
-/* Footer Styles */
+
 .footer {
     padding: 20px;
     text-align: center;
-    background: #d3d3d3;
+    background: black;
+    color: white;
 }
 
 .hero-section {
@@ -272,7 +271,7 @@ body {
 }
 
 .hero-images img {
-    max-width: 300px; /* Applies to each individual image */
+    max-width: 300px; 
     height: auto;
     object-fit: cover;
 }
@@ -299,7 +298,7 @@ input[type=text], select, textarea {
   padding: 20px;
 }
 .image-placeholder img {
-    max-width: 100%;  /* Ensures the image is never wider than its container */
-    max-height: 100%; /* Ensures the image is never taller than its container */
-    object-fit: contain; /* Prevents distortion by scaling the image to fit */
+    max-width: 100%;  
+    max-height: 100%; 
+    object-fit: contain; 
 }
