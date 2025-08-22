@@ -77,7 +77,6 @@ body {
 .grid-item {
     background-color: #fff;
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .news-and-other-grid {
@@ -112,7 +111,7 @@ body {
 .text-box {
     background-color: white;
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 
