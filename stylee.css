@@ -96,7 +96,7 @@ body {
 }
 
 .image-box {
-    background-color: #d3d3d3;
+    background-color: white;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -110,7 +110,7 @@ body {
 }
 
 .text-box {
-    background-color: #fff;
+    background-color: white;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
